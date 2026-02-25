@@ -62,21 +62,25 @@ Refs: <issue/ticket number if applicable>
 - Reference issues/tickets
 - Make atomic commits
 
-## Folder Structue
+## 📂 Repository Structure
 ```
 repo-root/
 ├── .githooks/
-│   └── pre-push              # Shared hygiene hook
+│   └── pre-push              # Shared Git hook to enforce commit hygiene before pushing
 ├── docs/
-│   ├── commit-cheat-sheet.png # Visual one-page reference
-│   ├── onboarding.md          # Team onboarding instructions
-│   ├── workflow-diagram.png   # Visual commit workflow diagram
-│   └── README.md              # Index for docs folder
-├── COMMIT_GUIDE.md            # Full commit style guide
-├── README.md                  # Main repo README with quick setup
+│   ├── commit-cheat-sheet.png # Visual one-page reference for commit message formatting
+│   ├── onboarding.md          # Step-by-step onboarding instructions for new teammates
+│   ├── workflow-diagram.png   # Visual diagram of the commit workflow process
+│   └── README.md              # Index file for the docs folder, linking to all resources
+├── COMMIT_GUIDE.md            # Full commit message style guide with examples and best practices
+├── README.md                  # Main repo README with quick setup instructions and overview
 ```
 ### Notes:
-- docs/README.md → acts as an index, linking to cheat sheet, workflow diagram, and onboarding instructions.
-- onboarding.md → step-by-step setup for new teammates (hooks, guide, workflow).
-- Visuals (commit-cheat-sheet.png, workflow-diagram.png) → quick references for daily use.
-- Keep COMMIT_GUIDE.md at the root so it’s easy to find and reference.
+- docs/ → acts as an index, linking to cheat sheet, workflow diagram, and onboarding instructions.
+-- onboarding.md → step-by-step setup for new teammates (hooks, guide, workflow).
+-- commit-cheat-sheet.png → quick references for daily use.
+-- workflow-diagram.png → for process clarity.
+-- README.md → Index README to tie everything together.
+  
+- COMMIT_GUIDE.md → the detailed style guide for commit messages.
+- README.md → the entry point for the repo, explaining setup and linking to docs.
