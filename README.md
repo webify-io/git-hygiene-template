@@ -77,7 +77,7 @@ repo-root/
 ```
 ### Notes:
 - docs/ → acts as an index, linking to cheat sheet, workflow diagram, and onboarding instructions.
--   - onboarding.md → step-by-step setup for new teammates (hooks, guide, workflow).
+    - onboarding.md → step-by-step setup for new teammates (hooks, guide, workflow).
     - commit-cheat-sheet.png → quick references for daily use.
     - workflow-diagram.png → for process clarity.
     - README.md → Index README to tie everything together.
