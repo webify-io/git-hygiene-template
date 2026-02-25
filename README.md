@@ -34,12 +34,12 @@ Drop this file into your repo root:
 ```
 
 ## Structure
+```
 <type>(<scope>): <short summary>
 
 <detailed explanation of what changed and why>
 Refs: <issue/ticket number if applicable>
-
-Code
+```
 
 ## Conventional Commit Types
 - **feat**: new feature
@@ -61,3 +61,22 @@ Code
 - Explain the “why”
 - Reference issues/tickets
 - Make atomic commits
+
+## Folder Structue
+```
+repo-root/
+├── .githooks/
+│   └── pre-push              # Shared hygiene hook
+├── docs/
+│   ├── commit-cheat-sheet.png # Visual one-page reference
+│   ├── onboarding.md          # Team onboarding instructions
+│   ├── workflow-diagram.png   # Visual commit workflow diagram
+│   └── README.md              # Index for docs folder
+├── COMMIT_GUIDE.md            # Full commit style guide
+├── README.md                  # Main repo README with quick setup
+```
+### Notes:
+- docs/README.md → acts as an index, linking to cheat sheet, workflow diagram, and onboarding instructions.
+- onboarding.md → step-by-step setup for new teammates (hooks, guide, workflow).
+- Visuals (commit-cheat-sheet.png, workflow-diagram.png) → quick references for daily use.
+- Keep COMMIT_GUIDE.md at the root so it’s easy to find and reference.
